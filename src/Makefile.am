@@ -324,6 +324,7 @@ crypto_libdash_crypto_a_SOURCES = \
   crypto/simd.c \
   crypto/skein.c \
   crypto/haval.c \
+  crypto/haval_helper.c \
   crypto/neoscrypt.c \
   crypto/sph_hamsi.c \
   crypto/sph_hamsi_helper.c \
