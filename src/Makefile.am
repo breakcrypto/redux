@@ -194,8 +194,7 @@ BITCOIN_CORE_H = \
   zmq/zmqabstractnotifier.h \
   zmq/zmqconfig.h\
   zmq/zmqnotificationinterface.h \
-  zmq/zmqpublishnotifier.h \
-  hashSelection.h
+  zmq/zmqpublishnotifier.h
 
 
 obj/build.h: FORCE
@@ -323,8 +322,6 @@ crypto_libdash_crypto_a_SOURCES = \
   crypto/shavite.c \
   crypto/simd.c \
   crypto/skein.c \
-  crypto/haval.c \
-  crypto/haval_helper.c \
   crypto/neoscrypt.c \
   crypto/sph_hamsi.c \
   crypto/sph_hamsi_helper.c \
@@ -356,7 +353,6 @@ crypto_libdash_crypto_a_SOURCES = \
   crypto/sph_shabal.h \
   crypto/sph_whirlpool.h \
   crypto/sph_sha2.h \
-  crypto/sph_haval.h \
   crypto/sph_types.h \
   crypto/sha512.cpp \
   crypto/sha512.h
@@ -418,7 +414,6 @@ libdash_common_a_SOURCES = \
   script/sign.cpp \
   script/standard.cpp \
   warnings.cpp \
-  hashSelection.cpp \
   $(BITCOIN_CORE_H)
 
 # util: shared between all executables.
